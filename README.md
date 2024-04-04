@@ -15,7 +15,8 @@ sec 11 <br/>
 รหัสวิชา 01205381 ภาควิชาวิศวกรรมไฟฟ้า คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ ปีการศึกษา 2566 <br/>
 
 ## การทดลอง
-นำค่า Electrical Length, Impedance และ Frequency ที่ได้จากการคำนวณบน excel ไปสร้างเป็นชิ้นงานในโปรแกรม sonnet โดยการหาขนาดจาก TXLine <br/>
+
+นำค่า Electrical Length, Impedance และ Frequency ที่ได้จากการคำนวณบน excel แบบ  butterworth filter  7 order ไปสร้างเป็นชิ้นงานในโปรแกรม sonnet โดยการหาขนาดจาก TXLine <br/>
 
 ![Screenshot (248)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/5a6520e8-6f9a-40c4-a667-1b6d47947515) <br/>
 ![Screenshot (249)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/118aa89a-3e1d-44c2-b56f-360fd8e2fd78) <br/>
