@@ -1,7 +1,8 @@
+![download](https://github.com/NPeerawat/LAB_G3/assets/164756138/aee313df-816f-43df-ab65-a2ed68609e79)
 # แบบรายงานผลการทดลอง 
 # เรื่อง Transmission Line Filter Design 
 sec 11 <br/>
-กลุ่ม กลุ่มสาม
+# กลุ่ม กลุ่มสาม
 ### จัดทำโดย
 ธนดล    เนตรรัตนา    6410500751 <br/>
 พีรวัส    แฉ่งชัยศรี     6410502231 <br/>
@@ -15,51 +16,59 @@ sec 11 <br/>
 
 ## การทดลอง
 นำค่า Electrical Length, Impedance และ Frequency ที่ได้จากการคำนวณบน excel ไปสร้างเป็นชิ้นงานในโปรแกรม sonnet โดยการหาขนาดจาก TXLine <br/>
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/d3a191b2-45c8-44f2-89a0-ee8508a2b1a4)
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/a9bb249e-91e8-42b2-ac97-4ad0d2420b30)
+
+![Screenshot (248)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/5a6520e8-6f9a-40c4-a667-1b6d47947515) <br/>
+![Screenshot (249)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/118aa89a-3e1d-44c2-b56f-360fd8e2fd78) <br/>
 
 ### ทำให้ได้กราฟออกมาดังนี้ 
 - กราฟ port1 to port1
-
-![s11](https://github.com/NPeerawat/LAB--/assets/164756138/88210bdf-fa7d-4c3b-94ad-51e9b8514cdb)
+  
+![sonnets11](https://github.com/NPeerawat/LAB_G3/assets/164756138/2bd31889-2a07-483b-bea8-54d2ec7675e7) <br/>
 
 - กราฟ port1 to port2
-
-![s12](https://github.com/NPeerawat/LAB--/assets/164756138/3d28b2a6-34db-4238-bfa6-4c9b6c69d4fb)
-
+  
+![sonnets1,2](https://github.com/NPeerawat/LAB_G3/assets/164756138/ad7742a6-827b-4eba-9b48-c50f8ef976f8) <br/>
 
 เมื่อได้รูปกราฟออกมาตามที่ต้องการ จึงนำชิ้นงานที่วาดได้ผ่านsonnet ไปวาดลงEasyEDA เพื่อนำไปสั่งทำเป็นผลงานจริง 
 
-![image]
+![Screenshot (258)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/62315e64-3965-4eb5-b48d-aba62f3a94ed) <br/>
 
+![Screenshot (257)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/819b66d1-4f8a-464a-b568-49432131a00a) <br/>
 
-ภาพการสั่งทำชิ้นงาน
+![Screenshot (256)_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/ed71208e-a994-4672-a64d-05da5075c327) <br/>
 
-<img width="1440" alt="ภาพถ่ายหน้าจอ 2567-03-01 เวลา 19 43 21" src="https://github.com/NPeerawat/LAB--/assets/164756138/131609b3-c525-4779-922b-4b65ee591bf0">
+##ภาพการสั่งทำชิ้นงาน
 
+<img width="1438" alt="ภาพถ่ายหน้าจอ 2567-03-01 เวลา 20 17 14" src="https://github.com/NPeerawat/LAB_G3/assets/164756138/7fc90388-b471-4fd1-ac31-32dc96e766a2"> <br/>
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2567-03-01 เวลา 19 43 21" src="https://github.com/NPeerawat/LAB_G3/assets/164756138/0daa750a-e29b-451a-a09b-35560d34729e"> <br/>
 
 
 นำชิ้นงานของจริงที่ได้ไปวัดค่าจริง โดยอ่านค่าผ่านโปรแกรม Putty แล้วนำไปพล้อตกราฟ<br/>
 
-ค่าจริงที่ได้มีดังนี้
+##ค่าจริงที่ได้มีดังนี้
 
 port1 to port1 <br/>
 
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/166e1928-127d-4f79-a2c2-46d43fe01e5b) <br/>
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/6c6af385-52c2-413a-a272-0816e53b70bd) <br/>
+![s111_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/bc26c774-a328-4612-8b40-87224969d96e) <br/>
+![s112_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/00dbf9a1-0bf1-4322-b79f-838a25685e02) <br/>
+
 
 เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet
 
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/1f7d323d-a05d-409d-a7c7-057d15a9ec4f)
+![sonnets11](https://github.com/NPeerawat/LAB_G3/assets/164756138/c3872f62-2141-4ea1-8fed-823c8bee533e)<br/>
 
-port1 to port2 <br/>
 
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/92233a5b-b110-4438-a5b6-7989a2610fe9) <br/>
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/0b44d87d-277b-4f42-8c98-305e5aa411e2) <br/>
+-port1 to port2 <br/>
 
-เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet
+![s121_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/ba202f5c-1d2a-4a4d-8c45-7920e5cc36f5)<br/>
+![s122_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/5eff05c3-b1a9-4b05-ac50-d1b55e0aa49b)<br/>
 
-![image](https://github.com/hidekkk/LabArchitect/assets/165928440/e2134823-e66f-4b4f-af20-d0ab911cf340)
+
+##เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet (port1 to port2)
+
+![sonnets1,2](https://github.com/NPeerawat/LAB_G3/assets/164756138/36d71d6e-bc3c-49ac-a268-632807eef76b)
 
 
 ## สรุปผลการทดลอง
+ จากการทดลองออกแบบ Low pass filter กราฟที่แสดงออกมาจากเครื่องวัดจากชิ้นงานจริง และ กราฟที่ได้จำลองในโปรแกรม Sonnet พบว่ามีความคลาดเคลื่อน ที่สามารถรับยอมรับได้ ส่วนการสร้างแผ่นชิ้นงาน ในโปรแกรม EasyEDA มีปัญหาในการออกแบบของชิ้นงานบริเวรด้านหลังซึ่งไม่มี solder mark สำหรับบัดกรีเข้ากับ connect footprint ซึ่งค่าที่วัดได้จากชิ้นงาน ที่ -3.61 dB มีความถี่ 2 GHz และค่าที่ -30 dB มีความถี่ 2.76 GHz ซึ่งจากกราฟที่ได้จากชิ้นงานจริง เมื่อเทียบกับกราฟที่สร้างจาก Sonnet จะพบว่ามีความคลาดเคลื่อน ซึ่งจะเห็นว่าผลลัพธ์จากชิ้นงานจริงมีแนวโน้มที่ดีกว่า
